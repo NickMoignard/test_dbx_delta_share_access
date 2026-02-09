@@ -13,7 +13,7 @@ Otherwise install the follwing python and UV versions with your prefered method
 
 ## Setup
 
-### Setup ASDF
+### 0. Setup ASDF
 
 Install ASDF and plugins:
 
@@ -25,7 +25,7 @@ asdf plugin add uv https://github.com/asdf-community/asdf-uv.git;
 asdf plugin add python https://github.com/asdf-community/asdf-python.git
 ```
 
-### Install Python & UV
+### 1. Install Python & UV
 
 Install required packages:
 ```bash
@@ -33,7 +33,7 @@ asdf install;
 ```
 
 
-2. Add Delta Sharing credentials to repositories root directoy `/config.share`
+### 2. Add Delta Sharing credentials to repositories root directoy `/config.share`
 
 ## Usage
 
