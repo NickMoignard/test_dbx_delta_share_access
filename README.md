@@ -33,7 +33,7 @@ asdf install;
 ```
 
 
-### 2. Add Delta Sharing credentials to repositories root directoy `/config.share`
+### 2. Add Delta Sharing credentials to the repository root directoy `/config.share`
 
 ## Usage
 
