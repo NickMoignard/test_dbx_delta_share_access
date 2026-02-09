@@ -11,12 +11,6 @@ import argparse
 
 FILE_PATH = f"{os.getcwd()}/config.share"
 
-def get_token_from_env():
-    token = os.getenv("DBX_RECIPIENT_TOKEN")
-    if token is None:
-        raise ValueError("DBX_RECIPIENT_TOKEN environment variable is not set.")
-    return token
-
 def load_table_as_pandas(table_name):
     return delta_sharing.load_as_pandas(f"{FILE_PATH}#{table_name}")
 
